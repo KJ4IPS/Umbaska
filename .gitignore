@@ -21,4 +21,13 @@ bin
 
 # IntelliJ
 *.iml
+*.ipr
+*.iws
 .idea
+
+# jars in the root directory (used for compilation when maven is not availaibe)
+/*.jar
+
+# Gradle
+.gradle/
+build/
